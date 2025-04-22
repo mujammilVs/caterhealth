@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import {  FaFacebook, FaInstagram, FaPinterest, FaX, FaYoutube } from "react-icons/fa6";
+import { RxCross2 } from "react-icons/rx";
 
 export default function MobileMenu({
   isSidebar,
@@ -34,7 +36,8 @@ export default function MobileMenu({
       <div className="mobile-menu">
         <div className="menu-backdrop" onClick={handleMobileMenu} />
         <div className="close-btn" onClick={handleMobileMenu}>
-          <span className="far fa-times" />
+          {/* <span className="far fa-times" /> */}
+          <RxCross2/>
         </div>
         <nav className="menu-box">
           {/* <div className="nav-logo">
@@ -98,8 +101,8 @@ export default function MobileMenu({
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/#">Services</Link>
-                  <ul
+                  <Link href="/service">Services</Link>
+                  {/* <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
                     }}
@@ -154,15 +157,15 @@ export default function MobileMenu({
                         Modern Laboratory
                       </Link>
                     </li>
-                  </ul>
-                  <div
+                  </ul> */}
+                  {/* <div
                     className={
                       isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"
                     }
                     onClick={() => handleToggle(2)}
                   >
                     <span className="fa fa-angle-right" />
-                  </div>
+                  </div> */}
                 </li>
 
                 <li
@@ -170,8 +173,8 @@ export default function MobileMenu({
                     isActive.key == 3 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/#">Team</Link>
-                  <ul
+                  <Link href="/team">Team</Link>
+                  {/* <ul
                     style={{
                       display: `${isActive.key == 3 ? "block" : "none"}`,
                     }}
@@ -186,23 +189,23 @@ export default function MobileMenu({
                         Team Details
                       </Link>
                     </li>
-                  </ul>
-                  <div
+                  </ul> */}
+                  {/* <div
                     className={
                       isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"
                     }
                     onClick={() => handleToggle(3)}
                   >
                     <span className="fa fa-angle-right" />
-                  </div>
+                  </div> */}
                 </li>
                 <li
                   className={
                     isActive.key == 4 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/#">Pages</Link>
-                  <ul
+                  <Link href="/#">Tesmonial</Link>
+                  {/* <ul
                     style={{
                       display: `${isActive.key == 4 ? "block" : "none"}`,
                     }}
@@ -289,15 +292,15 @@ export default function MobileMenu({
                         Page Not Found
                       </Link>
                     </li>
-                  </ul>
-                  <div
+                  </ul> */}
+                  {/* <div
                     className={
                       isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"
                     }
                     onClick={() => handleToggle(4)}
                   >
                     <span className="fa fa-angle-right" />
-                  </div>
+                  </div> */}
                 </li>
                 <li>
                   <Link href="/contact" onClick={handleMobileMenu}>
@@ -323,29 +326,34 @@ export default function MobileMenu({
           <div className="social-links">
             <ul className="clearfix">
               <li>
-                <Link href="/">
+                {/* <Link href="/">
                   <span className="fab fa-twitter"></span>
-                </Link>
+                </Link> */}
+                <FaX/>
               </li>
               <li>
-                <Link href="/">
+                {/* <Link href="/">
                   <span className="fab fa-facebook-square"></span>
-                </Link>
+                </Link> */}
+                <FaFacebook/>
               </li>
               <li>
-                <Link href="/">
+                {/* <Link href="/">
                   <span className="fab fa-pinterest-p"></span>
-                </Link>
+                </Link> */}
+                <FaPinterest/>
               </li>
               <li>
-                <Link href="/">
+                {/* <Link href="/">
                   <span className="fab fa-instagram"></span>
-                </Link>
+                </Link> */}
+                <FaInstagram/>
               </li>
               <li>
-                <Link href="/l">
+                {/* <Link href="/l">
                   <span className="fab fa-youtube"></span>
-                </Link>
+                </Link> */}
+                <FaYoutube/>
               </li>
             </ul>
           </div>
