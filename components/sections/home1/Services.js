@@ -21,7 +21,7 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="service-details-3">
+                    <Link href="/">
                       <img
                         src="assets/images/service/Probiotic-Supplements.png"
                         alt=""
@@ -34,7 +34,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details-3">Lorem</Link>
+                    <Link href="service-details-3">Lorem1</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -53,7 +53,9 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="service-details-6">
+                    {/* <Link href="service-details-6"> */}
+                    <Link href="/">
+
                       <img
                         src="assets/images/service/digestive-Enzyme.jpg"
                         alt=""
@@ -61,13 +63,13 @@ export default function service() {
                     </Link>
                   </figure>
                   <div className="icon-box">
-                    {/* <i className="icon-16"></i> */}
-                    <FaUserDoctor/>
+                    <i className="icon-16"></i>
+                    {/* <FaUserDoctor/> */}
                   </div>
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details-6">Lorem</Link>
+                    <Link href="/">Lorem3</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -86,7 +88,7 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="service-details">
+                    <Link href="/">
                       <img src="assets/images/service/Skin-acne.jpg" alt="" />
                     </Link>
                   </figure>
@@ -96,7 +98,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details">Lorem</Link>
+                    <Link href="/">Lorem3</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -115,7 +117,7 @@ export default function service() {
               <div className="inner-box">
                 <div className="image-box">
                   <figure className="image">
-                    <Link href="service-details-2">
+                    <Link href="/">
                       <img src="assets/images/service/Immunity.jpg" alt="" />
                     </Link>
                   </figure>
@@ -125,7 +127,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details">Lorem</Link>
+                    <Link href="/">Lorem4</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
