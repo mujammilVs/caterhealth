@@ -47,7 +47,7 @@ export default function service() {
           <div className="col-lg-3 col-md-6 col-sm-12 service-block">
             <div
               className="service-block-one wow fadeInUp animated"
-              data-wow-delay="300ms"
+              data-wow-delay="600ms"
               data-wow-duration="1500ms"
             >
               <div className="inner-box">
@@ -57,7 +57,7 @@ export default function service() {
                     <Link href="/">
 
                       <img
-                        src="assets/images/service/digestive-Enzyme.jpg"
+                        src="assets/images/service/Immunity.jpg"
                         alt=""
                       />
                     </Link>
@@ -69,7 +69,7 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="/">Lorem3</Link>
+                    <Link href="/">Lorem2</Link>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
