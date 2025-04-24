@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { IoArrowForwardOutline } from "react-icons/io5";
 export default function News() {
   return (
     <section className="news-section sec-pad bg-color-1">
@@ -39,7 +40,10 @@ export default function News() {
                   </p>
                   <div className="link">
                     <Link href="/">
-                      <span>Read More</span>
+                      {/* <span>Read More</span> */}
+                      <span>Read More  </span>
+                    
+
                     </Link>
                   </div>
                 </div>

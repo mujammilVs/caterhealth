@@ -1,26 +1,27 @@
 import React from "react";
 import Link from "next/link";
+import { FaInstagram, FaPinterest, FaX, FaYoutube } from "react-icons/fa6";
 export default function Team() {
   const teamMembers = [
     {
       name: "Prof. Benoit Chassaing, PhD",
       role: "Mucosal Immunology ",
-      image: "assets/images/team/Doctor1.jpg",
+      image: "assets/images/team/doctor1.jpg",
     },
     {
       name: "Prof. Philippe Marteau, MD, PhD",
       role: "Gastroenterology",
-      image: "assets/images/team/Doctor2.jpg",
+      image: "assets/images/team/doctor2.jpg",
     },
     {
       name: "Dr. Laurence Zitvogel, MD, PhD",
       role: "Oncology & Immunology",
-      image: "assets/images/team/Doctor3.jpg",
+      image: "assets/images/team/doctor3.jpg",
     },
     {
       name: "Dr. Anne-Marie Cassard, PhD",
       role: "Microbiome & Liver Disease",
-      image: "assets/images/team/Doctor4.jpg",
+      image: "assets/images/team/doctor4.jpg",
     },
   ];
 
@@ -71,22 +72,26 @@ export default function Team() {
                     <ul className="social-links clearfix">
                       <li>
                         <Link href="/#">
-                          <i className="icon-4"></i>
+                          {/* <i className="icon-4"></i> */}
+                          <FaYoutube/>
                         </Link>
                       </li>
                       <li>
                         <Link href="/#">
-                          <i className="icon-5"></i>
+                          {/* <i className="icon-5"></i> */}
+                          <FaX/>
                         </Link>
                       </li>
                       <li>
                         <Link href="/#">
-                          <i className="icon-6"></i>
+                          {/* <i className="icon-6"></i> */}
+                          <FaInstagram/>
                         </Link>
                       </li>
                       <li>
                         <Link href="/#">
-                          <i className="icon-7"></i>
+                          {/* <i className="icon-7"></i> */}
+                          <FaPinterest/>
                         </Link>
                       </li>
                     </ul>
