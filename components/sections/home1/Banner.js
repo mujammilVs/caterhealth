@@ -31,16 +31,14 @@ export default function Banner() {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12 content-column">
             <div className="content-box">
-              <span className="upper-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </span>
+              <span className="upper-text"></span>
               <h2>
-                Lorem <span>ipsum</span> Lorem
+                Caterwealth Pharmaceuticals <span> and Healthcare</span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-                nec, ultricies sed, dolor. Cras elementum ultrices diam.
+                To become India’s most trusted nutraceutical brand by delivering
+                evidence-based wellness solutions that empower people to lead
+                healthier lives.{" "}
               </p>
               <div className="btn-box">
                 <Link href="/#" className="theme-btn btn-two">

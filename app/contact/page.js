@@ -17,12 +17,12 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="icon-box">
                         {/* <i className="icon-2"></i> */}
-                        <MdCall/>
+                        <MdCall />
                       </div>
                       <p>
                         Main Office: <br />
-                        <Link href="tel:0123456789">
-                          (+18)1234-5678-9123
+                        <Link href="tel:7076667666">
+                          (+91)70 7666 7666
                         </Link>,{" "}
                       </p>
                     </div>
@@ -34,11 +34,13 @@ export default function Home() {
                     <div className="inner-box">
                       <div className="icon-box">
                         {/* <i className="icon-26"></i> */}
-                        <MdEmail/>
+                        <MdEmail />
                       </div>
                       <p>
                         Mail: <br />
-                        <Link href="mailto:abc@gmail.com">abc@gmail.com</Link>
+                        <Link href="mailto:abc@gmail.com">
+                          Info@caterhealth.in
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -51,7 +53,8 @@ export default function Home() {
                         <img src="assets/images/icons/icon-2.png" alt="" />
                       </div>
                       <p>
-                        road no5, madhapur , hyderabad <br /> hyderabad
+                        Plot No: 01, Block No:01, Vittal Rao Nagar, Madhapur,
+                        Hyderabad - 500081
                       </p>
                     </div>
                   </div>
@@ -157,14 +160,25 @@ export default function Home() {
           <section className="google-map-section">
             {/*Map Outer*/}
             <div className="map-inner">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2912000418796!2d78.38901877493615!3d17.445771083451334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9183fcc99575%3A0xf9358a5a5eabc95!2sVLACK%20SOLUTIONS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1745232151411!5m2!1sen!2sin" width="600"
+              {/* <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2912000418796!2d78.38901877493615!3d17.445771083451334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9183fcc99575%3A0xf9358a5a5eabc95!2sVLACK%20SOLUTIONS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1745232151411!5m2!1sen!2sin"
+                width="600"
                 height={570}
                 style={{ border: 0, width: "100%" }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              />
+              /> */}
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15225.856509135734!2d78.381477!3d17.437486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e3ae31fd2b%3A0xadb594d8d1c2e7dc!2sp%2016%2C%2001%2C%20Madhapur%2C%20Hyderabad%2C%20Telangana%20500081%2C%20India!5e0!3m2!1sen!2sus!4v1745841602090!5m2!1sen!2sus"
+                width="600"
+                height={450}
+                style={{ border: 0, width: "100%" }}
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </section>
           {/* Google Map Section End */}

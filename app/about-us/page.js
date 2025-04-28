@@ -7,28 +7,28 @@ import { FaHeartbeat, FaHeartBroken } from "react-icons/fa";
 import { MdHealthAndSafety } from "react-icons/md";
 import { RiStethoscopeFill } from "react-icons/ri";
 
-const teamMembers = [
-  {
-    name: "Prof. Benoit Chassaing, PhD",
-    role: "Mucosal Immunology ",
-    image: "assets/images/team/Doctor1.jpg",
-  },
-  {
-    name: "Prof. Philippe Marteau, MD, PhD",
-    role: "Gastroenterology",
-    image: "assets/images/team/Doctor2.jpg",
-  },
-  {
-    name: "Dr. Laurence Zitvogel, MD, PhD",
-    role: "Oncology & Immunology",
-    image: "assets/images/team/Doctor3.jpg",
-  },
-  {
-    name: "Dr. Anne-Marie Cassard, PhD",
-    role: "Microbiome & Liver Disease",
-    image: "assets/images/team/Doctor4.jpg",
-  },
-];
+ const teamMembers = [
+   {
+     name: "Dr. Ramesh Bhatia, MD",
+     role: "Gastroenterology & Digestive Wellness ",
+     image: "assets/images/team/doctor1.jpg",
+   },
+   {
+     name: "Dr. Arvind Patel, MD",
+     role: "Oncology & Immunotherapy Research",
+     image: "assets/images/team/doctor2.jpg",
+   },
+   {
+     name: " Dr. Priya Sharma,PhD",
+     role: "Microbiome and Women's Health",
+     image: "assets/images/team/doctor3.jpg",
+   },
+   {
+     name: "Dr. Neha Kapoor, PhD",
+     role: "Skin Microbiome & Dermatology",
+     image: "assets/images/team/doctor4.jpg",
+   },
+ ];
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
   const [isActive, setIsActive] = useState({
@@ -109,11 +109,11 @@ export default function Home() {
                     </figure>
                     <div className="icon-one">
                       {/* <i className="icon-13"></i> */}
-                       <MdHealthAndSafety/>
+                      <MdHealthAndSafety />
                     </div>
                     <div className="icon-two">
                       {/* <i className="icon-14"></i> */}
-                      <FaHeartbeat/>
+                      <FaHeartbeat />
                     </div>
                     {/* <div className="text-box">
                       <h3>Lorem</h3>
@@ -127,42 +127,28 @@ export default function Home() {
                   <div className="content-box ml_30">
                     <div className="sec-title mb_15">
                       <span className="sub-title">About Us</span>
-                      <h2>CaterWealth</h2>
+                      <h3>Caterwealth Pharmaceuticals and Healthcare </h3>
                     </div>
                     <div className="text-box mb_40">
+                      <h6>
+                        Caterhealth is the Brand Owned by Caterwealth
+                        Pharmaceuticals and Healthcare Industry Pvt Ltd a
+                        cutting-edge nutraceutical brand that bridges the gap
+                        between traditional wellness and modern science,
+                        offering plant-based, clinically-backed supplements
+                        tailored to individual health needs.
+                      </h6>
                       <p>
-                        Revolutionizing health through advanced probiotic
-                        science.
+                        This business harnesses the power of natural
+                        ingredients—adaptogens, herbs, superfoods, and bioactive
+                        compounds—to create targeted formulations for immunity,
+                        gut health, mental clarity, and vitality.
                       </p>
-                      <p>
-                        At CaterWealth, we are pioneers in the development of
-                        scientifically-formulated probiotic solutions designed
-                        to support digestive balance, boost immunity, and
-                        promote overall well-being. We believe health starts at
-                        the gut — and we make sure it thrives.
-                      </p>
-                      <ul className="list-style-one clearfix">
-                        <li>Enhances gut microbiome naturally</li>
-                        <li>Boosts immune system resilience</li>
-                        <li>Supports digestive health</li>
-                        <li>Promotes mood & brain function</li>
-                      </ul>
                     </div>
-                    <div className="lower-box">
-                      <div className="experience-box">
-                        <div className="icon-box">
-                          {/* <i className="icon-29"></i> */}
-                        <RiStethoscopeFill/>
-                        </div>
-                        <h3>Lorem</h3>
-                        <span className="designation">Lorem ipsum</span>
-                      </div>
-                      {/* <figure className="author-thumb">
-                        <img src="assets/images/resource/author-1.jpg" alt="" />
-                      </figure> */}
-                      <div className="signature">
-                        {/* <img src="assets/images/icons/signature-1.png" alt="" /> */}
-                      </div>
+                    <div className="btn-box">
+                      <Link href="/#" className="theme-btn btn-one">
+                        <span>Read More</span>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -503,10 +489,11 @@ export default function Home() {
           <div className="auto-container">
             <div className="sec-title mb_50">
               <span className="sub-title">Our Team</span>
-              <h2>
-                Connecting with Leading Doctors in Paris to Explore Innovations
-                in Healthy Bacteria Research
-              </h2>
+              <h3>
+                CaterWealth Health Care, we work with top doctors and
+                researchers to create innovative, bacteria-based solutions that
+                support better health and lasting wellness.
+              </h3>
             </div>
             <div className="row clearfix">
               {teamMembers.map((member, index) => (

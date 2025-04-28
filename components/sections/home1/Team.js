@@ -4,23 +4,23 @@ import { FaInstagram, FaPinterest, FaX, FaYoutube } from "react-icons/fa6";
 export default function Team() {
   const teamMembers = [
     {
-      name: "Prof. Benoit Chassaing, PhD",
-      role: "Mucosal Immunology ",
+      name: "Dr. Ramesh Bhatia, MD",
+      role: "Gastroenterology & Digestive Wellness ",
       image: "assets/images/team/doctor1.jpg",
     },
     {
-      name: "Prof. Philippe Marteau, MD, PhD",
-      role: "Gastroenterology",
+      name: "Dr. Arvind Patel, MD",
+      role: "Oncology & Immunotherapy Research",
       image: "assets/images/team/doctor2.jpg",
     },
     {
-      name: "Dr. Laurence Zitvogel, MD, PhD",
-      role: "Oncology & Immunology",
+      name: " Dr. Priya Sharma,PhD",
+      role: "Microbiome and Women's Health",
       image: "assets/images/team/doctor3.jpg",
     },
     {
-      name: "Dr. Anne-Marie Cassard, PhD",
-      role: "Microbiome & Liver Disease",
+      name: "Dr. Neha Kapoor, PhD",
+      role: "Skin Microbiome & Dermatology",
       image: "assets/images/team/doctor4.jpg",
     },
   ];
@@ -51,10 +51,11 @@ export default function Team() {
       <div className="auto-container">
         <div className="sec-title mb_50">
           <span className="sub-title">Our Team</span>
-          <h2>
-            Connecting with Leading Doctors in Paris to Explore Innovations in
-            Healthy Bacteria Research
-          </h2>
+          <h3>
+            CaterWealth Health Care, we work with top doctors and researchers to
+            create innovative, bacteria-based solutions that support better
+            health and lasting wellness.
+          </h3>
         </div>
         <div className="row clearfix">
           {teamMembers.map((member, index) => (
@@ -73,25 +74,25 @@ export default function Team() {
                       <li>
                         <Link href="/#">
                           {/* <i className="icon-4"></i> */}
-                          <FaYoutube/>
+                          <FaYoutube />
                         </Link>
                       </li>
                       <li>
                         <Link href="/#">
                           {/* <i className="icon-5"></i> */}
-                          <FaX/>
+                          <FaX />
                         </Link>
                       </li>
                       <li>
                         <Link href="/#">
                           {/* <i className="icon-6"></i> */}
-                          <FaInstagram/>
+                          <FaInstagram />
                         </Link>
                       </li>
                       <li>
                         <Link href="/#">
                           {/* <i className="icon-7"></i> */}
-                          <FaPinterest/>
+                          <FaPinterest />
                         </Link>
                       </li>
                     </ul>

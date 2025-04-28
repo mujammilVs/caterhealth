@@ -52,16 +52,16 @@ export default function about() {
                 <div className="icon-one">
                   {/* <i className="icon-13"></i> */}
                   {/* <MdDone/> */}
-                  <MdHealthAndSafety/>
+                  <MdHealthAndSafety />
                 </div>
                 <div className="icon-two">
                   {/* <i className="icon-14"></i> */}
-                
-<FaHeartbeat/>
+
+                  <FaHeartbeat />
                 </div>
                 <div className="text-box">
-                  <h3>Lorem</h3>
-                  <span>Lorem</span>
+                  <h3>Cater</h3>
+                  <span>wealth</span>
                 </div>
               </div>
             </div>
@@ -71,28 +71,24 @@ export default function about() {
               <div className="content-box ml_30">
                 <div className="sec-title mb_15">
                   <span className="sub-title">About Us</span>
-                  <h2>Lorem</h2>
+                  <h3>Caterwealth Pharmaceuticals and Healthcare </h3>
                 </div>
                 <div className="text-box mb_40">
                   <h6>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus.
+                    Caterhealth is the Brand Owned by Caterwealth
+                    Pharmaceuticals and Healthcare Industry Pvt Ltd a
+                    cutting-edge nutraceutical brand that bridges the gap
+                    between traditional wellness and modern science, offering
+                    plant-based, clinically-backed supplements tailored to
+                    individual health needs.
                   </h6>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus. Suspendisse lectus tortor, dignissim sit amet,
-                    adipiscing nec, ultricies sed, dolor. Cras elementum
-                    ultrices diam. Maecenas ligula massa, varius a, semper
-                    congue, euismod non, mi.
+                    This business harnesses the power of natural
+                    ingredients—adaptogens, herbs, superfoods, and bioactive
+                    compounds—to create targeted formulations for immunity, gut
+                    health, mental clarity, and vitality.
                   </p>
-                  <ul className="list-style-one clearfix">
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    
-                  </ul>
+                  
                 </div>
                 <div className="btn-box">
                   <Link href="/#" className="theme-btn btn-one">

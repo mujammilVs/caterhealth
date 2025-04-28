@@ -6,13 +6,27 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 export default function Home() {
   const getTestimonialName = (index) => {
     // Replace with actual names based on the index or fetch from a data source
-    const names = ['Jane Cooper', 'Black, Marvin', 'Jenny Wilson', 'Devon Lane', 'Jacob Jones', 'Ralph Edwards'];
+    const names = [
+      "Sarah Mitchell ",
+      "Jason Lee ",
+      "Priya Sharma ",
+      " Daniel Roberts",
+      "Emily Carter",
+      "Ahmed Khan",
+    ];
     return names[index - 1] || 'Unknown';
   };
   
   const getTestimonialDesignation = (index) => {
     // Replace with actual designations based on the index or fetch from a data source
-    const designations = ['Marketing Coordinator', 'Web Designer', 'Medical Assistant', 'President of Sales', 'Nursing Assistant', 'Dog Trainer'];
+    const designations = [
+      " Fitness Enthusiast",
+      " Health Coach",
+      "Yoga Instructor",
+      "Personal Trainer",
+      "Wellness Blogger",
+      "Nutrition Specialist",
+    ];
     return designations[index - 1] || 'Unknown Designation';
   };
 
@@ -57,6 +71,7 @@ export default function Home() {
                       <ul className="pagination clearfix">
                         <li><Link href="testimonials" className="current">1</Link></li>
                         <li><Link href="testimonials">2</Link></li>
+                        <li><Link href="testimonials">3</Link></li>
                         <li><Link href="testimonials">3</Link></li>
                         <li><Link href="testimonials">
                         {/* <i className="icon-36"></i> */}

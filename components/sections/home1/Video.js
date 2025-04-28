@@ -34,7 +34,7 @@ export default function Video() {
                 <span className="border-animation border-3"></span>
               </a>
             </div>
-            <h2>Lorem ipsum</h2>
+            <h2>Please find the consultant and confirm an appointment</h2>
             <div className="btn-box">
               <Link href="/#" className="theme-btn btn-one">
                 <span>Make an Appointment</span>

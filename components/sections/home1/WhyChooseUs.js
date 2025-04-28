@@ -25,7 +25,7 @@ export default function chooseus() {
             <div className="content-box">
               <div className="sec-title light mb_50">
                 <span className="sub-title">Why Choose Us</span>
-                <h2>Lorem ipsum</h2>
+                <h2>Cater wealth</h2>
               </div>
               <div className="row clearfix">
                 <div className="col-lg-6 col-md-6 col-sm-12 chooseus-block">
@@ -34,13 +34,12 @@ export default function chooseus() {
                       <div className="icon-box">
                         {/* <i className="icon-18"></i> */}
                         {/* <MdDone/> */}
-<FaUserNurse/>
+                        <FaUserNurse />
                       </div>
-                      <h3>Lorem ipsum</h3>
+                      <h3>Expert Health Guidance</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed non risus. Suspendisse lectus tortor, dignissim sit
-                        amet, adipiscing nec, ultricies sed, dolor.
+                        Our certified experts provide personalized advice for
+                        your better health journey.
                       </p>
                     </div>
                   </div>
@@ -51,13 +50,12 @@ export default function chooseus() {
                       <div className="icon-box">
                         {/* <i className="icon-21"></i> */}
                         {/* <MdDone/> */}
-                        <FaMedkit/>
+                        <FaMedkit />
                       </div>
-                      <h3>Lorem ipsum</h3>
+                      <h3>Trusted Care Solutions </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed non risus. Suspendisse lectus tortor, dignissim sit
-                        amet, adipiscing nec, ultricies sed, dolor.
+                        We offer scientifically backed, high-quality health
+                        products and supplements.
                       </p>
                     </div>
                   </div>
@@ -67,13 +65,12 @@ export default function chooseus() {
                     <div className="inner-box">
                       <div className="icon-box">
                         {/* <i className="icon-19"></i> */}
-                        <MdDone/>
+                        <MdDone />
                       </div>
-                      <h3>Lorem ipsum</h3>
+                      <h3>Guaranteed Quality </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed non risus. Suspendisse lectus tortor, dignissim sit
-                        amet, adipiscing nec, ultricies sed, dolor.
+                        Every Cater Wealth product meets the highest safety and
+                        quality standards.
                       </p>
                     </div>
                   </div>
@@ -84,13 +81,12 @@ export default function chooseus() {
                       <div className="icon-box">
                         {/* <i className="icon-20"></i> */}
                         {/* <MdDone/> */}
-                        <RiCustomerService2Fill/>
+                        <RiCustomerService2Fill />
                       </div>
-                      <h3>Lorem ipsum</h3>
+                      <h3>24/7 Customer Support </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed non risus. Suspendisse lectus tortor, dignissim sit
-                        amet, adipiscing nec, ultricies sed, dolor.
+                        Our friendly team is available round-the-clock to assist
+                        you with any needs.
                       </p>
                     </div>
                   </div>

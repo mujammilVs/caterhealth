@@ -25411,7 +25411,9 @@ a.ui-button:active,
 }
 
 
-
+.logo strong{
+  color: black;
+}
 
 
 
@@ -33498,8 +33500,8 @@ img {
 }
 
 .main-header .outer-box img{
-  width: 280px;
-  margin-top: 10px;
+  width: 50px;
+  /* margin-top: 10px; */
 }
 .main-header .logo-box{
   position: relative;
