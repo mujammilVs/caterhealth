@@ -20,9 +20,12 @@ export default function feature() {
                   />{" "}
                 </div>
                 <h3>
-                  <Link href="/">Lorem</Link>
+                  <Link href="/">Essencial</Link>
                 </h3>
-                <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+                <p>
+                  Good sleep and healthy food are essential for a strong body
+                  and gut health.
+                </p>
               </div>
             </div>
           </div>
@@ -39,9 +42,12 @@ export default function feature() {
                   <i className="icon-10"></i>
                 </div> */}
                 <h3>
-                  <Link href="/">Lorem</Link>
+                  <Link href="/">Code - M</Link>
                 </h3>
-                <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+                <p>
+                  Code-M represents a powerful formula designed for men’s
+                  vitality.
+                </p>
               </div>
             </div>
           </div>
@@ -55,9 +61,9 @@ export default function feature() {
                   />
                 </div>
                 <h3>
-                  <Link href="/">Lorem</Link>
+                  <Link href="/">Super Strength CH-1</Link>
                 </h3>
-                <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+                <p>Boosts your energy and endurance</p>
               </div>
             </div>
           </div>
@@ -68,9 +74,12 @@ export default function feature() {
                   <img src="assets/images/gallery/Body-Wellness.png" alt="" />
                 </div>
                 <h3>
-                  <Link href="/">Lorem</Link>
+                  <Link href="/">Epicenter</Link>
                 </h3>
-                <p>Lorem ipsum dolor sit amet ctetur adipiscing</p>
+                <p>
+                  The epicenter of the new health revolution starts with better
+                  gut care.
+                </p>
               </div>
             </div>
           </div>

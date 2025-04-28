@@ -5,24 +5,24 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaX } from "react-icons/fa6";
 export default function Home() {
   const teamMembers = [
     {
-      name: "Prof. Benoit Chassaing, PhD",
-      role: "Mucosal Immunology ",
-      image: "assets/images/team/Doctor1.jpg",
+      name: "Dr. Ramesh Bhatia, MD",
+      role: "Gastroenterology & Digestive Wellness ",
+      image: "assets/images/team/doctor1.jpg",
     },
     {
-      name: "Prof. Philippe Marteau, MD, PhD",
-      role: "Gastroenterology",
-      image: "assets/images/team/Doctor2.jpg",
+      name: "Dr. Arvind Patel, MD",
+      role: "Oncology & Immunotherapy Research",
+      image: "assets/images/team/doctor2.jpg",
     },
     {
-      name: "Dr. Laurence Zitvogel, MD, PhD",
-      role: "Oncology & Immunology",
-      image: "assets/images/team/Doctor3.jpg",
+      name: " Dr. Priya Sharma,PhD",
+      role: "Microbiome and Women's Health",
+      image: "assets/images/team/doctor3.jpg",
     },
     {
-      name: "Dr. Anne-Marie Cassard, PhD",
-      role: "Microbiome & Liver Disease",
-      image: "assets/images/team/Doctor4.jpg",
+      name: "Dr. Neha Kapoor, PhD",
+      role: "Skin Microbiome & Dermatology",
+      image: "assets/images/team/doctor4.jpg",
     },
   ];
   return (
@@ -229,10 +229,11 @@ export default function Home() {
             <div className="auto-container">
               <div className="sec-title mb_50">
                 <span className="sub-title">Our Team</span>
-                <h2>
-                  Connecting with Leading Doctors in Paris to Explore
-                  Innovations in Healthy Bacteria Research
-                </h2>
+                <h3>
+                  CaterWealth Health Care, we work with top doctors and
+                  researchers to create innovative, bacteria-based solutions
+                  that support better health and lasting wellness.
+                </h3>
               </div>
               <div className="row clearfix">
                 {teamMembers.map((member, index) => (
@@ -257,25 +258,25 @@ export default function Home() {
                             <li>
                               <Link href="/#">
                                 {/* <i className="icon-4"></i> */}
-                                <FaLinkedin/>
+                                <FaLinkedin />
                               </Link>
                             </li>
                             <li>
                               <Link href="/#">
                                 {/* <i className="icon-5"></i> */}
-                                <FaX/>
+                                <FaX />
                               </Link>
                             </li>
                             <li>
                               <Link href="/#">
                                 {/* <i className="icon-6"></i> */}
-                                <FaInstagram/>
+                                <FaInstagram />
                               </Link>
                             </li>
                             <li>
                               <Link href="/#">
                                 {/* <i className="icon-7"></i> */}
-                                <FaFacebook/>
+                                <FaFacebook />
                               </Link>
                             </li>
                           </ul>

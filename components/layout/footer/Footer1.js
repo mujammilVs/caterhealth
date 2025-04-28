@@ -29,37 +29,60 @@ export default function Footer1() {
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo">
                     <Link href="/">
-                      {/* <img src="assets/images/footer-logo.png" alt="" /> */}
-                      CaterWealth
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                        }}
+                      >
+                        <img
+                          src="assets/images/caterhealth-new-logo.png"
+                          alt=""
+                          width={60}
+                        />
+                        <strong
+                          style={{
+                            // 'bold' should be a string
+                            background:
+                              "linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)", // Wrap the gradient in quotes
+                            WebkitBackgroundClip: "text", // Corrected the property name (camelCase for React)
+                            WebkitTextFillColor: "transparent", // Corrected the property name (camelCase for React)
+                          }}
+                        >
+                          CaterHealth
+                        </strong>
+                      </div>
                     </Link>
                   </figure>
                   <p>
-                    Lorem ipsum dolor sit amet constetur adipiscing elit. Etiam
-                    eu turpis mostie dictum est a, mattis tellus.
+                    CaterHealth is a health sciences company founded in 2021.
+                    Headquartered in Hyderabad, Telangana, India, the company
+                    focuses on developing products aimed at restoring health and
+                    nutritional balance across age groups.
                   </p>
                   <ul className="social-links clearfix">
                     <li>
                       <Link href="/">
                         {/* <i className="icon-4"></i> */}
-                        <FaX/>
+                        <FaX />
                       </Link>
                     </li>
                     <li>
                       <Link href="/">
                         {/* <i className="icon-5"></i> */}
-                        <FaInstagram/>
+                        <FaInstagram />
                       </Link>
                     </li>
                     <li>
                       <Link href="/">
                         {/* <i className="icon-6"></i> */}
-                        <FaFacebook/>
+                        <FaFacebook />
                       </Link>
                     </li>
                     <li>
                       <Link href="/">
                         {/* <i className="icon-7"></i> */}
-                        <FaLinkedin/>
+                        <FaLinkedin />
                       </Link>
                     </li>
                   </ul>
@@ -129,17 +152,25 @@ export default function Footer1() {
                     <ul className="info-list">
                       <li>
                         <img src="assets/images/icons/icon-1.png" alt="" />
-                        Road no5,Madhapur,Hyderabad.
+                        Plot No: 01, Block No:01, Vittal Rao Nagar, Madhapur,
+                        Hyderabad - 500081
                       </li>
                       <li>
                         {/* <i className="icon-2"></i> */}
-                       <i> <MdCall/></i>
-                        <Link href="tel:0123456789" >0123456789</Link>
+                        <i>
+                          {" "}
+                          <MdCall />
+                        </i>
+                        <Link href="tel:0123456789">(+91)70 7666 7666,</Link>
                       </li>
                       <li>
                         {/* <i className="icon-26"></i> */}
-                        <i><MdEmail/></i>
-                        <Link href="mailto:abc@gmail.com">abc@gmail.com</Link>
+                        <i>
+                          <MdEmail />
+                        </i>
+                        <Link href="mailto:abc@gmail.com">
+                          Info@caterhealth.in
+                        </Link>
                       </li>
                     </ul>
                   </div>

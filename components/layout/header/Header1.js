@@ -57,7 +57,6 @@ export default function Header1({
             </div>
           </div>
         </div> */}
-
         {/* Header Upper */}
         <div className="header-lower">
           <div className="outer-container">
@@ -66,8 +65,21 @@ export default function Header1({
                 <div className="logo-box">
                   <figure className="logo">
                     <Link href="/">
-                      <img src="assets/images/caterwealth-logo.png" alt="" />
-                      {/* CaterWealth */}
+                      <img
+                        src="assets/images/caterhealth-new-logo.png"
+                        alt=""
+                      />
+                      <strong
+                        style={{
+                          // 'bold' should be a string
+                          background:
+                            "linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)", // Wrap the gradient in quotes
+                          WebkitBackgroundClip: "text", // Corrected the property name (camelCase for React)
+                          WebkitTextFillColor: "transparent", // Corrected the property name (camelCase for React)
+                        }}
+                      >
+                        CaterHealth
+                      </strong>
                     </Link>
                   </figure>
                 </div>
@@ -98,7 +110,6 @@ export default function Header1({
             </div>
           </div>
         </div>
-
         {/* Sticky Header  */}
         <div className="sticky-header">
           <div className="auto-container">
@@ -106,8 +117,17 @@ export default function Header1({
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img src="assets/images/caterwealth-logo.png" alt="" />
-                    {/* CaterWealth */}
+                    <img src="assets/images/caterhealth-new-logo.png" alt="" />
+                    <strong
+                      style={{
+                        background:
+                          "linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)",
+                        WebkitBackgroundClip: "text", // Corrected the property name (camelCase for React)
+                        WebkitTextFillColor: "transparent", // Corrected the property name (camelCase for React)
+                      }}
+                    >
+                      CaterHealth
+                    </strong>
                   </Link>
                 </figure>
               </div>
@@ -132,11 +152,7 @@ export default function Header1({
         </div>
         {/* End Sticky Menu */}
         {/* Mobile Menu  */}
-
- <MobileMenu handleMobileMenu={handleMobileMenu} /> :
-
-
-       
+        <MobileMenu handleMobileMenu={handleMobileMenu} /> :
       </header>
     </>
   );

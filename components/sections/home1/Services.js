@@ -9,7 +9,7 @@ export default function service() {
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
           <span className="sub-title">Our Services</span>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          <h2> natural ingredients</h2>
         </div>
         <div className="row clearfix">
           <div className="col-lg-3 col-md-6 col-sm-12 service-block">
@@ -34,11 +34,11 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="service-details-3">Lorem1</Link>
+                    <Link href="service-details-3"> Preventive care</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus.
+                    Building strong health foundations to prevent illness before
+                    it starts.
                   </p>
                 </div>
               </div>
@@ -55,11 +55,7 @@ export default function service() {
                   <figure className="image">
                     {/* <Link href="service-details-6"> */}
                     <Link href="/">
-
-                      <img
-                        src="assets/images/service/Immunity.jpg"
-                        alt=""
-                      />
+                      <img src="assets/images/service/Immunity.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="icon-box">
@@ -69,11 +65,11 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="/">Lorem2</Link>
+                    <Link href="/">Holistic </Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus.
+                    Balancing the mind, body, and spirit for complete
+                    well-being.
                   </p>
                 </div>
               </div>
@@ -98,11 +94,11 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="/">Lorem3</Link>
+                    <Link href="/">Adaptogens</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus.
+                    Natural plants that help the body adapt to stress and
+                    restore balance.
                   </p>
                 </div>
               </div>
@@ -127,11 +123,11 @@ export default function service() {
                 </div>
                 <div className="lower-content">
                   <h3>
-                    <Link href="/">Lorem4</Link>
+                    <Link href="/">Herbs</Link>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    non risus.
+                    Traditional botanical ingredients used to support natural
+                    healing.
                   </p>
                 </div>
               </div>

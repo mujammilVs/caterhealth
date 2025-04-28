@@ -66,32 +66,22 @@ export default function TestimonialSlider1() {
                 {/* <i className="icon-23"></i> */}
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus.
+                Joining this wellness program changed my life. I feel more
+                energetic, happier, and healthier every single day
               </p>
               <div className="author-box">
                 <figure className="author-thumb">
                   <img src="assets/images/resource/doctor.png" alt="" />
                 </figure>
                 <ul className="rating clearfix">
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="far fa-star"></i> */}
-                  </li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="far fa-star"></i> */}</li>
                 </ul>
-                <h3>Lorem</h3>
-                <span className="designation">Lorem ipsum</span>
+                <h3>Sarah Mitchell</h3>
+                <span className="designation"> Fitness Enthusiast</span>
               </div>
             </div>
           </div>
@@ -103,32 +93,22 @@ export default function TestimonialSlider1() {
                 {/* <i className="icon-23"></i> */}
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus.
+                The support and community here are unmatched. It’s not just a
+                movement, it’s a lifestyle transformation.
               </p>
               <div className="author-box">
                 <figure className="author-thumb">
                   <img src="assets/images/resource/doctor.png" alt="" />
                 </figure>
                 <ul className="rating clearfix">
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="far fa-star"></i> */}
-                  </li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="far fa-star"></i> */}</li>
                 </ul>
-                <h3>Lorem </h3>
-                <span className="designation">Lorem ipsum</span>
+                <h3>Jason Lee</h3>
+                <span className="designation">Health Coach</span>
               </div>
             </div>
           </div>
@@ -140,32 +120,22 @@ export default function TestimonialSlider1() {
                 {/* <i className="icon-23"></i> */}
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus.
+                Thanks to the wellness movement, I’ve adopted habits that made a
+                real difference in my physical and mental health
               </p>
               <div className="author-box">
                 <figure className="author-thumb">
                   <img src="assets/images/resource/doctor.png" alt="" />
                 </figure>
                 <ul className="rating clearfix">
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="far fa-star"></i> */}
-                  </li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="far fa-star"></i> */}</li>
                 </ul>
-                <h3>Lorem</h3>
-                <span className="designation">Lorem ipsum</span>
+                <h3>Priya Sharma</h3>
+                <span className="designation">Yoga Instructor</span>
               </div>
             </div>
           </div>
@@ -177,32 +147,22 @@ export default function TestimonialSlider1() {
                 {/* <i className="icon-23"></i> */}
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus.
+                If you’re serious about your health, this is where you need to
+                be. Inspiring, motivating, and truly life-changing
               </p>
               <div className="author-box">
                 <figure className="author-thumb">
                   <img src="assets/images/resource/doctor.png" alt="" />
                 </figure>
                 <ul className="rating clearfix">
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="far fa-star"></i> */}
-                  </li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="far fa-star"></i> */}</li>
                 </ul>
-                <h3>Lorem</h3>
-                <span className="designation">Lorem ipsum</span>
+                <h3>Daniel Roberts</h3>
+                <span className="designation">Personal Trainer</span>
               </div>
             </div>
           </div>
@@ -214,32 +174,22 @@ export default function TestimonialSlider1() {
                 {/* <i className="icon-23"></i> */}
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus.
+                This journey has empowered me to take control of my health. I’m
+                the best version of myself today
               </p>
               <div className="author-box">
                 <figure className="author-thumb">
                   <img src="assets/images/resource/doctor.png" alt="" />
                 </figure>
                 <ul className="rating clearfix">
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="far fa-star"></i> */}
-                  </li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="far fa-star"></i> */}</li>
                 </ul>
-                <h3>Lorem</h3>
-                <span className="designation">Lorem ipsum</span>
+                <h3>Emily Carter</h3>
+                <span className="designation">Wellness Blogger</span>
               </div>
             </div>
           </div>
@@ -251,32 +201,22 @@ export default function TestimonialSlider1() {
                 {/* <i className="icon-23"></i> */}
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                risus.
+                Every step with this community has been inspiring. I’ve built
+                habits that I’ll carry for a lifetime.
               </p>
               <div className="author-box">
                 <figure className="author-thumb">
                   <img src="assets/images/resource/doctor.png" alt="" />
                 </figure>
                 <ul className="rating clearfix">
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="fas fa-star"></i> */}
-                  </li>
-                  <li>
-                    {/* <i className="far fa-star"></i> */}
-                  </li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="fas fa-star"></i> */}</li>
+                  <li>{/* <i className="far fa-star"></i> */}</li>
                 </ul>
-                <h3>Lorem</h3>
-                <span className="designation">Lorem</span>
+                <h3> Ahmed Khan</h3>
+                <span className="designation">Nutrition Specialist</span>
               </div>
             </div>
           </div>

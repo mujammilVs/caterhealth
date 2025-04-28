@@ -31,7 +31,7 @@ export default function Home() {
               <div className="auto-container">
                 <div className="sec-title mb_50 centred">
                   <span className="sub-title">Our Services</span>
-                  <h2>CaterWealth Services Where Bacteria Meets Wellness.</h2>
+                  <h2> natural ingredients</h2>
                 </div>
                 <div className="row clearfix">
                   <div className="col-lg-3 col-md-6 col-sm-12 service-block">
@@ -43,104 +43,28 @@ export default function Home() {
                       <div className="inner-box">
                         <div className="image-box">
                           <figure className="image">
-                            <Link href="service-details-3">
+                            <Link href="/">
                               <img
                                 src="assets/images/service/Probiotic-Supplements.png"
                                 alt=""
                               />
                             </Link>
                           </figure>
-                          {/* <div className="icon-box">
-                                       <i className="icon-15"></i>
-                                     </div> */}
+                          <div className="icon-box">
+                            <i className="icon-15"></i>
+                          </div>
                         </div>
                         <div className="lower-content">
                           <h3>
                             <Link href="service-details-3">
-                              Probiotic Supplements
-                            </Link>
-                          </h3>
-                          <h6>
-                            Capsules, powders, or chewables with live cultures
-                            easy to take daily.
-                          </h6>
-                          <p>
-                            Example Strains: Lactobacillus rhamnosus,
-                            Bifidobacterium lactis
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                    <div
-                      className="service-block-one wow fadeInUp animated"
-                      data-wow-delay="300ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <div className="image-box">
-                          <figure className="image">
-                            <Link href="service-details-6">
-                              <img
-                                src="assets/images/service/digestive-Enzyme.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                          {/* <div className="icon-box">
-                                       <i className="icon-16"></i>
-                                     </div> */}
-                        </div>
-                        <div className="lower-content">
-                          <h3>
-                            <Link href="service-details-6">
-                              Digestive Enzyme Blends
-                            </Link>
-                          </h3>
-                          <h6>
-                            Probiotic blends that support digestion and nutrient
-                            absorption.
-                          </h6>
-                          <p>
-                            Key Benefit: Reduces bloating, gas, and indigestion.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-3 col-md-6 col-sm-12 service-block">
-                    <div
-                      className="service-block-one wow fadeInUp animated"
-                      data-wow-delay="600ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <div className="image-box">
-                          <figure className="image">
-                            <Link href="service-details">
-                              <img
-                                src="assets/images/service/Skin-acne.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                          {/* <div className="icon-box">
-                                       <i className="icon-17"></i>
-                                     </div> */}
-                        </div>
-                        <div className="lower-content">
-                          <h3>
-                            <Link href="service-details">
                               {" "}
-                              Skin & Acne Probiotic Therapies
+                              Preventive care
                             </Link>
                           </h3>
-                          <h6>
-                            Topical or ingestible products that support skin
-                            microbiome health.
-                          </h6>
-                          <p>Target: Eczema, acne, inflammation.</p>
+                          <p>
+                            Building strong health foundations to prevent
+                            illness before it starts.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -154,30 +78,90 @@ export default function Home() {
                       <div className="inner-box">
                         <div className="image-box">
                           <figure className="image">
-                            <Link href="service-details-2">
+                            {/* <Link href="service-details-6"> */}
+                            <Link href="/">
                               <img
                                 src="assets/images/service/Immunity.jpg"
                                 alt=""
                               />
                             </Link>
                           </figure>
-                          {/* <div className="icon-box">
-                                       <i className="icon-17"></i>
-                                     </div> */}
+                          <div className="icon-box">
+                            <i className="icon-16"></i>
+                            {/* <FaUserDoctor/> */}
+                          </div>
                         </div>
                         <div className="lower-content">
                           <h3>
-                            <Link href="service-details-2">
-                              Immunity Boost Formulas
-                            </Link>
+                            <Link href="/">Holistic </Link>
                           </h3>
-                          <h6>
-                            Formulas enriched with bacteria strains that support
-                            immune function.
-                          </h6>
                           <p>
-                            Example Strains: Lactobacillus casei,
-                            Bifidobacterium longum
+                            Balancing the mind, bodyand spirit for complete
+                            well-being.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                    <div
+                      className="service-block-one wow fadeInUp animated"
+                      data-wow-delay="600ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="inner-box">
+                        <div className="image-box">
+                          <figure className="image">
+                            <Link href="/">
+                              <img
+                                src="assets/images/service/Skin-acne.jpg"
+                                alt=""
+                              />
+                            </Link>
+                          </figure>
+                          <div className="icon-box">
+                            <i className="icon-17"></i>
+                          </div>
+                        </div>
+                        <div className="lower-content">
+                          <h3>
+                            <Link href="/">Adaptogens</Link>
+                          </h3>
+                          <p>
+                            Natural plants that help the body adapt to stress
+                            and restore balance.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                    <div
+                      className="service-block-one wow fadeInUp animated"
+                      data-wow-delay="600ms"
+                      data-wow-duration="1500ms"
+                    >
+                      <div className="inner-box">
+                        <div className="image-box">
+                          <figure className="image">
+                            <Link href="/">
+                              <img
+                                src="assets/images/service/Immunity.jpg"
+                                alt=""
+                              />
+                            </Link>
+                          </figure>
+                          <div className="icon-box">
+                            <i className="icon-17"></i>
+                          </div>
+                        </div>
+                        <div className="lower-content">
+                          <h3>
+                            <Link href="/">Herbs</Link>
+                          </h3>
+                          <p>
+                            Traditional botanical ingredients used to support
+                            natural healing.
                           </p>
                         </div>
                       </div>
