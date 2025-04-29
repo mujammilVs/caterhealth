@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook, FaLinkedin, FaX } from "react-icons/fa6";
@@ -35,10 +36,11 @@ export default function Footer1() {
                           alignItems: "center",
                         }}
                       >
-                        <img
-                          src="assets/images/caterhealth-new-logo.png"
+                        <Image
+                          src="/assets/images/caterhealth-new-logo.png"
                           alt=""
-                          width={60}
+                          width={50}
+                          height={50}
                         />
                         <strong
                           style={{
@@ -55,10 +57,10 @@ export default function Footer1() {
                     </Link>
                   </figure>
                   <p>
-                    CaterHealth is a health sciences company founded in 2021.
-                    Headquartered in Hyderabad, Telangana, India, the company
-                    focuses on developing products aimed at restoring health and
-                    nutritional balance across age groups.
+                    Caterwealth Pharmaceuticals and Healthcare Industry Pvt Ltd
+                    is a health sciences company founded in 2021. Headquartered
+                    in Hyderabad, Telangana, India, the company focuses on
+                    developing products aimed at restoring health.
                   </p>
                   <ul className="social-links clearfix">
                     <li>
@@ -105,7 +107,10 @@ export default function Footer1() {
                         <Link href="service">Services</Link>
                       </li>
                       <li>
-                        <Link href="/">Elements</Link>
+                        <Link href="team">Team</Link>
+                      </li>
+                      <li>
+                        <Link href="testimonial">Testimonial</Link>
                       </li>
                       <li>
                         <Link href="contact">Contacts Us</Link>
@@ -161,7 +166,7 @@ export default function Footer1() {
                           {" "}
                           <MdCall />
                         </i>
-                        <Link href="tel:0123456789">(+91)70 7666 7666,</Link>
+                        <Link href="tel:0123456789">(+91) 70 7666 7666,</Link>
                       </li>
                       <li>
                         {/* <i className="icon-26"></i> */}

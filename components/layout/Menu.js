@@ -64,7 +64,7 @@ export default function Menu() {
         </li>
         {/* Pages */}
         <li className="dropdown">
-          <Link href="/tesmonial">Tesmonial</Link>
+          <Link href="/testimonial">Testimonial</Link>
           {/* <ul>
             <li className="dropdown">
               <Link href="/">Blog</Link>
