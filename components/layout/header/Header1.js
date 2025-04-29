@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
+import Image from "next/image";
 
 export default function Header1({
   scroll,
@@ -65,9 +66,11 @@ export default function Header1({
                 <div className="logo-box">
                   <figure className="logo">
                     <Link href="/">
-                      <img
-                        src="assets/images/caterhealth-new-logo.png"
+                      <Image
+                        src="/assets/images/caterhealth-new-logo.png"
                         alt=""
+                        width={100}
+                        height={100}
                       />
                       <strong
                         style={{
@@ -117,7 +120,12 @@ export default function Header1({
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img src="assets/images/caterhealth-new-logo.png" alt="" />
+                    <Image
+                      width={100}
+                      height={100}
+                      src="/assets/images/caterhealth-new-logo.png"
+                      alt=""
+                    />
                     <strong
                       style={{
                         background:
