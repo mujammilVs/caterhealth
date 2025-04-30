@@ -8,7 +8,7 @@ export default function Home() {
       <Layout headerStyle={1} footerStyle={1}>
         <div>
           {/* Contact Form Section */}
-          <section className="contact-info-section pt_120">
+          <section className="contact-info-section  mt_40 pt_120">
             <div className="auto-container">
               <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 info-column">

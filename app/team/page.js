@@ -227,7 +227,7 @@ export default function Home() {
               ></div>
             </div>
             <div className="auto-container">
-              <div className="sec-title mb_50">
+              <div className="sec-title mt_40">
                 <span className="sub-title">Our Team</span>
                 <h3>
                   CaterWealth Health Care, we work with top doctors and
@@ -235,7 +235,7 @@ export default function Home() {
                   that support better health and lasting wellness.
                 </h3>
               </div>
-              <div className="row clearfix">
+              <div className="row clearfix mt_40">
                 {teamMembers.map((member, index) => (
                   <div
                     key={index}

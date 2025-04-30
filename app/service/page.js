@@ -29,18 +29,18 @@ export default function Home() {
             {/* service-style-two */}
             <section className="service-section sec-pad">
               <div className="auto-container">
-                <div className="sec-title mb_50 centred">
+                <div className="sec-title mt_40 centred">
                   <span className="sub-title">Our Services</span>
                   <h2> natural ingredients</h2>
                 </div>
-                <div className="row clearfix">
+                <div className="row clearfix mt_40">
                   <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                     <div
                       className="service-block-one wow fadeInUp animated"
                       data-wow-delay="00ms"
                       data-wow-duration="1500ms"
                     >
-                      <div className="inner-box">
+                      <div className="inner-box ">
                         <div className="image-box">
                           <figure className="image">
                             <Link href="/">

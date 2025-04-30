@@ -80,8 +80,8 @@ export default function Home() {
               }}
             ></div>
           </div>
-          <div className="auto-container">
-            <div className="row clearfix">
+          <div className="auto-container ">
+            <div className="row clearfix mt_40">
               <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div className="image_block_one">
                   <div className="image-box">
@@ -123,7 +123,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                <div className="content_block_one">
+                <div className="content_block_one mt_40">
                   <div className="content-box ml_30">
                     <div className="sec-title mb_15">
                       <span className="sub-title">About Us</span>

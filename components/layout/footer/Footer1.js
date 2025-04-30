@@ -59,8 +59,7 @@ export default function Footer1() {
                   <p>
                     Caterwealth Pharmaceuticals and Healthcare Industry Pvt Ltd
                     is a health sciences company founded in 2021. Headquartered
-                    in Hyderabad, Telangana, India, the company focuses on
-                    developing products aimed at restoring health.
+                    in Hyderabad, Telangana, India,the company focuses on developing  products aimed at restoring health.
                   </p>
                   <ul className="social-links clearfix">
                     <li>
@@ -130,11 +129,9 @@ export default function Footer1() {
                         <Link href="/">Privacy Policy</Link>
                       </li>
                       <li>
-                        <Link href="/">Terms &</Link>
+                        <Link href="/">Terms & Condition</Link>
                       </li>
-                      <li>
-                        <Link href="/">Condition</Link>
-                      </li>
+                     
                       <li>
                         <Link href="/">Support</Link>
                       </li>
@@ -187,7 +184,7 @@ export default function Footer1() {
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="bottom-inner">
-              <ul className="footer-nav clearfix">
+              {/* <ul className="footer-nav clearfix">
                 <li>
                   <Link href="/">Privacy Policy</Link>
                 </li>
@@ -203,7 +200,7 @@ export default function Footer1() {
                 <li>
                   <Link href="/">Site Map</Link>
                 </li>
-              </ul>
+              </ul> */}
               <div className="copyright">
                 <p>&copy; 2024 All Rights Reserved</p>
               </div>

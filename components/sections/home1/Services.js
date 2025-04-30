@@ -7,7 +7,7 @@ export default function service() {
   return (
     <section className="service-section sec-pad">
       <div className="auto-container">
-        <div className="sec-title mb_50 centred">
+        <div className="sec-title mb_80 centred">
           <span className="sub-title">Our Services</span>
           <h2> natural ingredients</h2>
         </div>

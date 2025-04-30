@@ -1,7 +1,13 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import {  FaFacebook, FaInstagram, FaPinterest, FaX, FaYoutube } from "react-icons/fa6";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaPinterest,
+  FaX,
+  FaYoutube,
+} from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
 
 export default function MobileMenu({
@@ -37,7 +43,7 @@ export default function MobileMenu({
         <div className="menu-backdrop" onClick={handleMobileMenu} />
         <div className="close-btn" onClick={handleMobileMenu}>
           {/* <span className="far fa-times" /> */}
-          <RxCross2/>
+          <RxCross2 />
         </div>
         <nav className="menu-box">
           {/* <div className="nav-logo">
@@ -204,7 +210,7 @@ export default function MobileMenu({
                     isActive.key == 4 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/#">Tesmonial</Link>
+                  <Link href="/testimonial">Testmonial</Link>
                   {/* <ul
                     style={{
                       display: `${isActive.key == 4 ? "block" : "none"}`,
@@ -313,12 +319,16 @@ export default function MobileMenu({
           <div className="contact-info">
             <h4>Contact Info</h4>
             <ul>
-              <li>Road no5,Madhapur,Hyderabad</li>
               <li>
-                <Link href="tel:+91 18xx xxxx xx23">+91 18xx xxxx xx23</Link>
+                {" "}
+                Plot No: 01, Block No:01, Vittal Rao Nagar, Madhapur, Hyderabad
+                - 500081
               </li>
               <li>
-                <Link href="mailto:abc@gmail.com">abc@gmail.com</Link>
+                <Link href="tel:+91 18xx xxxx xx23">+91 70 7666 7666</Link>
+              </li>
+              <li>
+                <Link href="mailto:abc@gmail.com"> Info@caterhealth.in</Link>
               </li>
             </ul>
           </div>
@@ -329,31 +339,31 @@ export default function MobileMenu({
                 {/* <Link href="/">
                   <span className="fab fa-twitter"></span>
                 </Link> */}
-                <FaX/>
+                <FaX />
               </li>
               <li>
                 {/* <Link href="/">
                   <span className="fab fa-facebook-square"></span>
                 </Link> */}
-                <FaFacebook/>
+                <FaFacebook />
               </li>
               <li>
                 {/* <Link href="/">
                   <span className="fab fa-pinterest-p"></span>
                 </Link> */}
-                <FaPinterest/>
+                <FaPinterest />
               </li>
               <li>
                 {/* <Link href="/">
                   <span className="fab fa-instagram"></span>
                 </Link> */}
-                <FaInstagram/>
+                <FaInstagram />
               </li>
               <li>
                 {/* <Link href="/l">
                   <span className="fab fa-youtube"></span>
                 </Link> */}
-                <FaYoutube/>
+                <FaYoutube />
               </li>
             </ul>
           </div>

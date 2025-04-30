@@ -27120,12 +27120,12 @@ a.ui-button:active,
 
   .banner-section .content-box h2,
   .banner-style-three .content-box h2{
-    font-size: 50px;
+    font-size: 35px;
     line-height: 60px;
   }
 
   .banner-carousel .content-box h2{
-    font-size: 50px;
+    font-size: 30px;
     line-height: 70px;
   }
 
@@ -27766,6 +27766,9 @@ a.ui-button:active,
   .chooseus-block-one .inner-box .icon-box{
     position: relative;
     margin-bottom: 15px;
+      font-size: 60px;
+
+
   }
 
 }
@@ -29288,7 +29291,10 @@ a.ui-button:active,
 
 @media only screen and (max-width: 499px){
 
-
+.news-section .sec-title h2{
+  font-size: 30px;
+  line-height: 40px;
+}
 }
 
 
@@ -30248,8 +30254,9 @@ a.ui-button:active,
 
 @media only screen and (max-width: 499px){
 
-
 }
+
+
 
 
 
@@ -30985,7 +30992,8 @@ a.ui-button:active,
     position: relative;
     top: 0px;
     right: 0px;
-    width: 100%;
+    width: auto;
+    height: auto;
     margin-top: 10px;
   }
 
@@ -31665,6 +31673,7 @@ a.ui-button:active,
   box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   padding: 50px;
+  margin-top: 20px;
  
 }
 
@@ -31927,6 +31936,7 @@ a.ui-button:active,
 
 @media only screen and (max-width: 499px){
 
+
   .testimonial-block-one .inner-box .icon-box{
     position: relative;
     right: 0px;
@@ -31941,12 +31951,12 @@ a.ui-button:active,
   .testimonial-block-one .inner-box{
     padding: 50px 30px;
   }
+   .testimonial-section .sec-title h2{
+      font-size: 30px;
+     
+    }
 
 }
-
-
-
-
 
 
 
@@ -34543,7 +34553,7 @@ button.ltr {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
 }
 
 .footer-bottom .bottom-inner .footer-nav li{
